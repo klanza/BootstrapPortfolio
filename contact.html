@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>BootStrap Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+    <!-- Need to redesign or figure out CSS for header, unable to style -->
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+      <!-- Brand -->
+      <a class="navbar-brand" href="index.html">Kenneth Lanza</a>
+    
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li> 
+        </ul>
+      </div> 
+    </nav>
+
+    <div id="content">
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="card-title">Contact Me</h1>
+                <hr class="my-4">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="someone@something.com">
+                        <small id="emailHelp" class="form-text text-muted">I will never share your email with anyone.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-md-0 mt-sm-4 mt-4">
+            <div class="card">
+              <div class="card-body text-center">
+                <h2 class="card-title">Connect With Me</h2>
+                <hr class="my-4">
+                <figure class="figure">
+                <a href="https://github.com/klanza" target="blank">
+                  <img src="assets/images/github.svg" alt="GitHub Profile" class="img-fluid float-left" id="github">
+                </a>
+                </figure>
+                <figure class="figure">
+                <a href="https://www.linkedin.com/in/kennethlanza/" target="blank">
+                    <img src="assets/images/linkedin.svg" alt="LinkedIn Profile"  class="img-fluid float-left" id="linkedin">
+                </a>
+                </figure>
+                <figure class="figure">
+                <a href="https://stackoverflow.com/users/8782959/kenneth-lanza" target="blank">
+                    <img src="assets/images/stackoverflow.svg" alt="Stack Overflow"  class="img-fluid float-left" id="stackover">
+                </a>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="fixed-bottom text-center footer">
+      <div class="container">
+        <span class="text-muted">&copy Copyright 2017 Kenneth Lanza</span>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>

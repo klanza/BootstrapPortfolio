@@ -1,0 +1,31 @@
+body {
+    background-image: url(../images/spiration-light.png)
+}
+
+#stackover {
+    max-height: 62px;
+    margin-bottom: 2px;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;    
+    color: #4aaaa5;
+}
+
+p {
+    color:#777777;
+}
+
+footer {
+    border-top: 3px solid #4aaaa5;
+    background: #cccccc;
+    color: #777777;
+}
+
+/* * Teal color (used for headings and backgrounds): `#4aaaa5`
+* Regular font color (used for paragraphs and all text besides the headings): `#777777`
+* Main header background color: `#ffffff`
+* Main header border color: `#cccccc`
+* Footer background color: `#666666`
+* Main content background color: `#ffffff`
+* Main content border color: `#dddddd` */
